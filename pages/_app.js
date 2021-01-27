@@ -51,7 +51,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         Primary Meta Tags;
         <title>Mr Robot Quiz - Alura</title>
-        <link rel="shortcut icon" href="../images/favicon.png" />
+        <link rel="shortcut icon" href="/images/favicon.png" />
         <meta name="title" content="Mr Robot Quiz - Alura"></meta>
         <meta name="description" content="Bonsoir!,
         Será que você conhece mesmo sobre Mr Robot?
@@ -64,7 +64,7 @@ export default function App({ Component, pageProps }) {
         <meta property="og:description" content="Bonsoir!,
         Será que você conhece mesmo sobre Mr Robot?
         Descubra se você é 0 ou 1 no Quiz!!"></meta>
-        <meta property="og:image" content="../images/ogimg.png"></meta>
+        <meta property="og:image" content="/images/ogimg.png"></meta>
 
         Twitter
         <meta property="twitter:card" content="summary_large_image"></meta>
@@ -73,7 +73,7 @@ export default function App({ Component, pageProps }) {
         <meta property="twitter:description" content="Bonsoir!,
         Será que você conhece mesmo sobre Mr Robot?
         Descubra se você é 0 ou 1 no Quiz!!"></meta>
-        <meta property="twitter:image" content="../images/ogimg.png"></meta>
+        <meta property="twitter:image" content="/images/ogimg.png"></meta>
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
