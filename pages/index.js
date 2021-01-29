@@ -52,7 +52,7 @@ export default function Home() {
         <meta property="og:description" content="Bonsoir!,
         Será que você conhece mesmo sobre Mr Robot?
         Descubra se você é 0 ou 1 no Quiz!!"></meta>
-        <meta property="og:image" content="/images/ogimg.png"></meta>
+        <meta property="og:image" content="../images/ogimg.png"></meta>
 
         <meta property="twitter:card" content="summary_large_image"></meta>
         <meta property="twitter:url" content="https://mr-robot-quiz-alura.bryanauta.vercel.app"></meta>
@@ -60,7 +60,7 @@ export default function Home() {
         <meta property="twitter:description" content="Bonsoir!,
         Será que você conhece mesmo sobre Mr Robot?
         Descubra se você é 0 ou 1 no Quiz!!"></meta>
-        <meta property="twitter:image" content="/images/ogimg.png"></meta>
+        <meta property="twitter:image" content="../images/ogimg.png"></meta>
       </Head>
       <QuizContainer>
         <QuizLogo />
