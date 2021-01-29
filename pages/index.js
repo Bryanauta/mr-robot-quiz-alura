@@ -68,9 +68,9 @@ export default function Home() {
         <Widget>
           <Widget.Content>
             <h1>Quizes da galera!</h1>
-            <p><a href="" class="linkquiz">Quiz 1</a></p>
-            <p><a href="" class="linkquiz">Quiz 2</a></p>
-            <p><a href="" class="linkquiz">Quiz 3</a></p>
+            <p><a href="https://1sec-quiz.victoroda.vercel.app/" class="linkquiz">VictorOda/1sec-quiz</a></p>
+            <p><a href="https://aluraquiz-coffee.leonardot07.vercel.app/" class="linkquiz">LeonardoT07/aluraquiz-coffee</a></p>
+            <p><a href="https://ai-quiz.idcesares.vercel.app/" class="linkquiz">idcesares/AiQuiz</a></p>
           </Widget.Content>
         </Widget>
         <Footer />

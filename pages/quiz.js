@@ -15,11 +15,11 @@ function LoadingWidget() {
   return (
     <Widget>
       <Widget.Header>
-        Carregando...
+        Carregando
       </Widget.Header>
-
+    
       <Widget.Content>
-        [Loading]
+        <img src="https://media.giphy.com/media/3o7bu3XilJ5BOiSGic/giphy.gif" alt="error"></img>
       </Widget.Content>
     </Widget>
   );
@@ -138,9 +138,9 @@ export default function QuizPage() {
           <Widget.Content>
             <div>Você acertou X questões, Parabéns!</div>
             <p>Faça outros quizes!</p>
-            <p><a href="" class="linkquiz">Quiz 1</a></p>
-            <p><a href="" class="linkquiz">Quiz 2</a></p>
-            <p><a href="" class="linkquiz">Quiz 3</a></p>
+            <p><a href="https://1sec-quiz.victoroda.vercel.app/" class="linkquiz">VictorOda/1sec-quiz</a></p>
+            <p><a href="https://aluraquiz-coffee.leonardot07.vercel.app/" class="linkquiz">LeonardoT07/aluraquiz-coffee</a></p>
+            <p><a href="https://ai-quiz.idcesares.vercel.app/" class="linkquiz">idcesares/AiQuiz</a></p>
           </Widget.Content>
         </Widget>
         }
