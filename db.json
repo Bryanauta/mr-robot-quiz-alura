@@ -8,18 +8,18 @@
         "image": "https://64.media.tumblr.com/094994c671b0080190d88641e9e54353/tumblr_pyzig1B8f41rtd4eqo1_500.gifv  ",
         "title": "Quem inventou Mr Robot?",
         "description": "Obrigado por esta obra prima!",
-        "answer": 0,
+        "answer": 2,
         "alternatives": [
-          "Bruce Wayne",
+          "David Fincher",
+          "Raphael Bob-Waksberg",
           "Sam Esmail",
-          "Matheus Baum",
-          "Douglas Costa"
+          "Nick Santora"
         ]
       },
       {
         "image": "https://media.giphy.com/media/WiM5K1e9MtEic/giphy.gif",
         "title": "Em que ano foi lançando Mr Robot?",
-        "description": "00110010 00110000 00110001 00110101",
+        "description": "Ano que saiu a melhor série!",
         "answer": 0,
         "alternatives": [
           "2015",
@@ -31,24 +31,24 @@
       {
         "image": "https://media.giphy.com/media/l41Ys4Fb5r8hcPhde/giphy.gif",
         "title": "Em qual cidade se passa a série?",
-        "description": "Bonsoir Friend",
-        "answer": 0,
+        "description": "Um lugar lindo diga se de passagem!",
+        "answer": 3,
         "alternatives": [
-          "Philadelphia",
-          "Washington",
-          "Pittsburgh",
+          "Seattle",
+          "San Francisco",
+          "Los Angeles",
           "New York"
         ]
       },
       {
         "image": "https://media1.tenor.com/images/167f9bf534677f86c64880207e37652e/tenor.gif?itemid=9973478",
         "title": "Qual o nome do personagem principal?",
-        "description": "Hello Friend!",
-        "answer": 2,
+        "description": "É o bigodudo do Queen? não!",
+        "answer": 1,
         "alternatives": [
           "Mr Robot",
-          "Bryan Nunes",
           "Elliot Alderson",
+          "Bryan Headroom",
           "Tyrell Wellick"
         ]
       },
@@ -71,57 +71,57 @@
         "answer": 0,
         "alternatives": [
           "Homens de Terno Preto",
-          "2017",
-          "2019",
-          "2021"
+          "Policiais",
+          "Mafiosos",
+          "Traficantes"
         ]
       },
       {
         "image": "https://media.giphy.com/media/shBWqBgyX2HTy/giphy.gif",
         "title": "Qual era a profissão do pai de elliot?",
-        "description": "Bonsoir Friend",
-        "answer": 0,
+        "description": "Verifique se o computador está na tomada!",
+        "answer": 2,
         "alternatives": [
-          "2015",
-          "V de Vingança",
-          "2019",
-          "2021"
+          "Técnico de informática",
+          "Engenheiro de Software",
+          "Dono de uma loja de computadores",
+          "Cientista de dados"
         ]
       },
       {
         "image": "https://media1.tenor.com/images/967d6615ee1462bde3785c7fe392e8ae/tenor.gif?itemid=10668667",
         "title": "Qual a causa da morte do pai do Elliot Alderson?",
-        "description": "Bonsoir Friend",
-        "answer": 0,
+        "description": "Press ''F'' for Respect!",
+        "answer": 3,
         "alternatives": [
-          "2015",
-          "2017",
-          "Leucemia",
-          "2021"
+          "AIDS",
+          "Covid 19",
+          "Câncer",
+          "Leucemia"
         ]
       },
       {
         "image": "https://media1.tenor.com/images/9deca6bf2a705f93a6b949a9e806e226/tenor.gif?itemid=13721133",
         "title": "Qual nome da melhor amiga de infancia do Elliot Alderson?",
-        "description": "Bonsoir Friend",
-        "answer": 0,
+        "description": "Amizade é tudo!",
+        "answer": 1,
         "alternatives": [
-          "2015",
+          "Trenton",
           "Angela",
-          "2019",
-          "2021"
+          "Shayla",
+          "Darlene"
         ]
       },
       {
         "image": "https://media1.tenor.com/images/6c721058670c338e1d64e811b11edb61/tenor.gif?itemid=10667985",
         "title": "Qual o nome do grupo hacker da série?",
-        "description": "Bonsoir Friend",
-        "answer": 0,
+        "description": "01100110 01110011 01101111 01100011 01101001 01100101 01110100 01111001",
+        "answer": 2,
         "alternatives": [
-          "2015",
-          "2017",
+          "DeadSec",
+          "Lizard Squad",
           "FSOCIETY",
-          "2021"
+          "Dark Army"
         ]
       }
     ],

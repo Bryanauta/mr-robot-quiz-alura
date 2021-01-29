@@ -51,7 +51,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         Primary Meta Tags;
         <title>Mr Robot Quiz - Alura</title>
-        <link rel="shortcut icon" href="/images/favicon.png" />
+        <link rel="shortcut icon" href="https://pics.freeicons.io/uploads/icons/png/6882831431553666420-512.png" />
         <meta name="title" content="Mr Robot Quiz - Alura"></meta>
         <meta name="description" content="Bonsoir!,
         Será que você conhece mesmo sobre Mr Robot?
