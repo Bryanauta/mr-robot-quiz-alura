@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import styled from 'styled-components';
 import db from '../db.json';
+import Head from 'next/head';
 import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
@@ -11,6 +12,7 @@ import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
 import QuizLogo from '../src/components/QuizLogo';
 import Button from '../src/components/Button';
+
 
 //const BackgroundImage = styled.div`
 //  background-image: url(${db.bg});
@@ -37,7 +39,6 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-      Primary Meta Tags;
         <title>Mr Robot Quiz - Alura</title>
         <link rel="shortcut icon" href="https://pics.freeicons.io/uploads/icons/png/6882831431553666420-512.png" />
         <meta name="title" content="Mr Robot Quiz - Alura"></meta>
@@ -45,7 +46,6 @@ export default function Home() {
         Será que você conhece mesmo sobre Mr Robot?
         Descubra se você é 0 ou 1 no Quiz!!"></meta>
 
-        Open Graph / Facebook;
         <meta property="og:type" content="website"></meta>
         <meta property="og:url" content="https://mr-robot-quiz-alura.bryanauta.vercel.app"></meta>
         <meta property="og:title" content="Mr Robot Quiz - Alura"></meta>
@@ -54,7 +54,6 @@ export default function Home() {
         Descubra se você é 0 ou 1 no Quiz!!"></meta>
         <meta property="og:image" content="/images/ogimg.png"></meta>
 
-        Twitter
         <meta property="twitter:card" content="summary_large_image"></meta>
         <meta property="twitter:url" content="https://mr-robot-quiz-alura.bryanauta.vercel.app"></meta>
         <meta property="twitter:title" content="Mr Robot Quiz - Alura"></meta>
