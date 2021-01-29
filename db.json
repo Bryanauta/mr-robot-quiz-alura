@@ -1,7 +1,7 @@
 {   
     "bg": "https://wallpaperaccess.com/download/mr-robot-1112793",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Mr._Robot_Logo.svg",
-    "ogimg": "/images/ogimg.png",
+    "ogimg": "/ogimg.png",
     "title": "Mr Robot Quiz Alura",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
