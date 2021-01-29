@@ -8,7 +8,9 @@ import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
 import QuizLogo from '../src/components/QuizLogo';
+import Button from '../src/components/Button';
 
 //const BackgroundImage = styled.div`
 //  background-image: url(${db.bg});
@@ -16,6 +18,7 @@ import QuizLogo from '../src/components/QuizLogo';
 //  background-size: cover;
 //  background-position: center;
 //`;
+
 export const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
@@ -34,35 +37,30 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
-        <QuizLogo/>
+        <QuizLogo />
         <Widget>
           <Widget.Header>
             <h1>Mr Robot Quiz</h1>
-          </Widget.Header> 
-          
+          </Widget.Header>
           <Widget.Content>
-            <p>Bonsoir, {name}!</p> 
+            <p>Bonsoir, {" " + name}!</p>
             <p>Será que você conhece mesmo sobre Mr Robot?</p>
-            <p> Descubra se você é  0 ou 1 no Quiz!</p>
-            <form onSubmit={function(infosDoEvento) {
+            <p> Descubra se você é  0 ou 1 quando se trata de Mr Robot!</p>
+            <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`)
               console.log('submition')
             }}
             >
-              <p><input 
-                onChange={function(infosDoEvento) {
-                  infosDoEvento.target.value;
-                  console.log(infosDoEvento.target.value)
-                  // State
-                  // name =infosDoEvento.target.value;
-                  setName(infosDoEvento.target.value)
-                }}
-                placeholder="Digite seu nome!" /></p>
-              <p><button type="submit" disabled={name.length === 0}>
-                Jogar  
-                {" "+name}
-              </button></p>
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                placeholder="Digite seu nome!"
+                value={name}
+              />
+              <Button type="submit" disabled={name.length === 0}>
+                Clique aqui para jogar,{" " + name}!
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
@@ -75,13 +73,9 @@ export default function Home() {
             <p><a href="" class="linkquiz">Quiz 3</a></p>
           </Widget.Content>
         </Widget>
-        <Footer>
-
-        </Footer>
+        <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="http://github.com/bryanauta">
-
-      </GitHubCorner>
+      <GitHubCorner projectUrl="http://github.com/bryanauta" />
     </QuizBackground>
   )
 }

@@ -1,33 +1,131 @@
-{
-    
+{   
     "bg": "https://wallpaperaccess.com/download/mr-robot-1112793",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Mr._Robot_Logo.svg",
     "title": "Mr Robot Quiz Alura",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://64.media.tumblr.com/094994c671b0080190d88641e9e54353/tumblr_pyzig1B8f41rtd4eqo1_500.gifv  ",
+        "title": "Quem inventou Mr Robot?",
+        "description": "Obrigado por esta obra prima!",
+        "answer": 0,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Bruce Wayne",
+          "Sam Esmail",
+          "Matheus Baum",
+          "Douglas Costa"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://media.giphy.com/media/WiM5K1e9MtEic/giphy.gif",
+        "title": "Em que ano foi lançando Mr Robot?",
+        "description": "00110010 00110000 00110001 00110101",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+          "2015",
+          "2017",
+          "2019",
+          "2021"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/l41Ys4Fb5r8hcPhde/giphy.gif",
+        "title": "Em qual cidade se passa a série?",
+        "description": "Bonsoir Friend",
+        "answer": 0,
+        "alternatives": [
+          "Philadelphia",
+          "Washington",
+          "Pittsburgh",
+          "New York"
+        ]
+      },
+      {
+        "image": "https://media1.tenor.com/images/167f9bf534677f86c64880207e37652e/tenor.gif?itemid=9973478",
+        "title": "Qual o nome do personagem principal?",
+        "description": "Hello Friend!",
+        "answer": 2,
+        "alternatives": [
+          "Mr Robot",
+          "Bryan Nunes",
+          "Elliot Alderson",
+          "Tyrell Wellick"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xTiTnBELA6Mb1TeeOc/giphy.gif",
+        "title": "Qual droga, Elliot Alderson é viciado?",
+        "description": "Não usem drogas crianças!",
+        "answer": 3,
+        "alternatives": [
+          "Quetamina",
+          "Cocaína",
+          "Heroína",
+          "Morfina"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/9P7QsybxYFrLq/giphy.gif",
+        "title": "Do que Elliot Alderson tem medo?",
+        "description": "Apenas corram deles!",
+        "answer": 0,
+        "alternatives": [
+          "Homens de Terno Preto",
+          "2017",
+          "2019",
+          "2021"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/shBWqBgyX2HTy/giphy.gif",
+        "title": "Qual era a profissão do pai de elliot?",
+        "description": "Bonsoir Friend",
+        "answer": 0,
+        "alternatives": [
+          "2015",
+          "V de Vingança",
+          "2019",
+          "2021"
+        ]
+      },
+      {
+        "image": "https://media1.tenor.com/images/967d6615ee1462bde3785c7fe392e8ae/tenor.gif?itemid=10668667",
+        "title": "Qual a causa da morte do pai do Elliot Alderson?",
+        "description": "Bonsoir Friend",
+        "answer": 0,
+        "alternatives": [
+          "2015",
+          "2017",
+          "Leucemia",
+          "2021"
+        ]
+      },
+      {
+        "image": "https://media1.tenor.com/images/9deca6bf2a705f93a6b949a9e806e226/tenor.gif?itemid=13721133",
+        "title": "Qual nome da melhor amiga de infancia do Elliot Alderson?",
+        "description": "Bonsoir Friend",
+        "answer": 0,
+        "alternatives": [
+          "2015",
+          "Angela",
+          "2019",
+          "2021"
+        ]
+      },
+      {
+        "image": "https://media1.tenor.com/images/6c721058670c338e1d64e811b11edb61/tenor.gif?itemid=10667985",
+        "title": "Qual o nome do grupo hacker da série?",
+        "description": "Bonsoir Friend",
+        "answer": 0,
+        "alternatives": [
+          "2015",
+          "2017",
+          "FSOCIETY",
+          "2021"
         ]
       }
     ],
+    
     "external": [
       ""
     ],
