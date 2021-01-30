@@ -5,5 +5,6 @@ export function QuizDaGaleraPage() {
         <div>
             Desafio da próxima aula
         </div>
+        
     );
 }
