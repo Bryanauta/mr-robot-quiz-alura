@@ -7,4 +7,4 @@ export function QuizDaGaleraPage() {
         </div>
         
     );
-}
+};
