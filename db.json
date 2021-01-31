@@ -128,7 +128,9 @@
     ],
     
     "external": [
-      ""
+      "https://aluraquiz-coffee.leonardot07.vercel.app/",
+      "https://1sec-quiz.victoroda.vercel.app/",
+      "https://naruto-quiz.llofyy.vercel.app/"
     ],
     "theme": {
       "colors": {

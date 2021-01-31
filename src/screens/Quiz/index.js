@@ -1,14 +1,14 @@
 import React, { useReducer } from 'react';
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer'
-import AlternativesForm from '../src/components/AlternativesForm'
-import Button from '../src/components/Button';
-import Footer from '../src/components/Footer';
-import GitHubCorner from '../src/components/GitHubCorner';
-
+//import db from '../../../db.json';
+import Widget from '../../components/Widget';
+import QuizLogo from '../../components/QuizLogo';
+import QuizBackground from '../../components/QuizBackground';
+import QuizContainer from '../../components/QuizContainer'
+import AlternativesForm from '../../components/AlternativesForm'
+import Button from '../../components/Button';
+import Footer from '../../components/Footer';
+import GitHubCorner from '../../components/GitHubCorner';
+import BackLinkArrow from '../../components/BackLinkArrow';
 
 function ResultWidget({ results }) {
   return (
@@ -35,7 +35,7 @@ function ResultWidget({ results }) {
         <ul>
           {results.map((result, index) => (
             <li key={`resullt__${result}`}>
-              #{index+1} Resultado: {result === true ? 'Acertou':'Errou'}
+              &#11093;{index+1} Questão: {result === true ? 'Acertou':'Errou'}
             </li>
           ))}
           
@@ -54,7 +54,7 @@ function LoadingWidget() {
       </Widget.Header>
     
       <Widget.Content>
-        <img src="https://media.giphy.com/media/3o7bu3XilJ5BOiSGic/giphy.gif" alt="error"></img>
+        <img src="https://media.giphy.com/media/3o7bu3XilJ5BOiSGic/giphy.gif" width="100%" alt="error"></img>
       </Widget.Content>
     </Widget>
   );
@@ -76,6 +76,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>
@@ -109,7 +110,6 @@ function QuestionWidget({
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
             }, 1 * 3000);
-            
           }}
         >
         {question.alternatives.map((alternative, alternativeIndex) => {
@@ -152,13 +152,14 @@ const screenStates = {
   LOADING: 'LOADING',
   RESULT: 'RESULT',
 }
-export default function QuizPage() {
-  const [screenState, setScreenState]= React.useState(screenStates.LOADING);
-  const [results, setResults] = React.useState([]);
-  const totalQuestions = db.questions.length;
-  const [currentQuestion, setCurrentQuestion] = React.useState(0);
-  const questionIndex = currentQuestion
-  const question = db.questions[questionIndex];
+export default function QuizPage({ externalQuestions, externalBg }) {
+    const [screenState, setScreenState] = React.useState(screenStates.LOADING);
+    const [results, setResults] = React.useState([]);
+    const [currentQuestion, setCurrentQuestion] = React.useState(0);
+    const questionIndex = currentQuestion;
+    const question = externalQuestions[questionIndex];
+    const totalQuestions = externalQuestions.length;
+    const bg = externalBg;
 
   function addResult(result) {
     setResults([
@@ -183,7 +184,7 @@ export default function QuizPage() {
   }
 
   return (
-    <QuizBackground backgroundImage={db.bg}>
+    <QuizBackground backgroundImage={bg}>
       <QuizContainer>
         <QuizLogo />
         {screenState === screenStates.QUIZ && (
@@ -198,15 +199,8 @@ export default function QuizPage() {
 
         {screenState === screenStates.LOADING && <LoadingWidget />}
         
-        {screenState === screenStates.RESULT && <ResultWidget results={results}/>}
-        
-        <Widget>
-          <Widget.Content>
-            <p><a href="https://1sec-quiz.victoroda.vercel.app/" class="linkquiz">VictorOda/1sec-quiz</a></p>
-            <p><a href="https://aluraquiz-coffee.leonardot07.vercel.app/" class="linkquiz">LeonardoT07/aluraquiz-coffee</a></p>
-            <p><a href="https://ai-quiz.idcesares.vercel.app/" class="linkquiz">idcesares/AiQuiz</a></p>
-          </Widget.Content>
-        </Widget>
+        {screenState === screenStates.RESULT && <ResultWidget results={results}/>} 
+
         <Footer />
       </QuizContainer>
 
